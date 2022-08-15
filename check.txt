@@ -1,0 +1,9 @@
+Apple
+Banana
+Cat
+Dog
+Cat
+Egg
+Dog
+Cat
+Apple
