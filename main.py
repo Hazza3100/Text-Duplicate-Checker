@@ -1,8 +1,5 @@
 with open('check.txt') as f:
-    content = f.read().split('\n')
-
-content = set([line for line in content if line != ''])
-content = '\n'.join(content)
+    content = set(line.strip() for line in f if line.strip())
 
 with open('output.txt', 'w') as f:
-    f.writelines(content)
+    f.write('\n'.join(content))
